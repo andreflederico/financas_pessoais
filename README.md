@@ -13,14 +13,14 @@ Sistema de gerenciamento manual de orçamentos, cartões de crédito e investime
 - **Padrão**: RESTful (roteamento via `index.php`)
 
 ## 📦 Estrutura do Projeto
-
+```
 financas_pessoais/
 ├── app/               # Lógica da aplicação (MVC)
 ├── public/            # Arquivos acessíveis publicamente
 ├── database/          # Migrações e seeds
 ├── vendor/            # Dependências do Composer
 └── .env.example       # Variáveis de ambiente
-
+```
 
 ## 🔌 Pré-requisitos
 - PHP 8.1+
