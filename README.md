@@ -102,28 +102,3 @@ GROUP BY mes;
 ## 📧 Contato
 Para dúvidas, abra uma **issue** ou contate:
 [seu-email@exemplo.com](mailto:seu-email@exemplo.com)
-
-```
-
-### 🔍 Detalhes Importantes para Inclusão:
-1. **Adicione screenshots** na pasta `/public/assets/images/`:
-   - `dashboard-preview.png` (600x400px)
-   - `mobile-view.png` (opcional)
-
-2. **Crie o arquivo `/docs/STYLE_GUIDE.md`** com:
-   ```markdown
-   # Guia de Estilo
-   ## Cores Primárias
-   - Azul: `#2E86AB` (botões primários)
-   - Verde: `#4CAF50` (valores positivos)
-   ```
-
-3. **Inclua um exemplo de `.env`**:
-   ```ini
-   DB_HOST=localhost
-   DB_NAME=financas
-   DB_USER=root
-   DB_PASS=
-   ```
-
-Quer que eu gere algum arquivo adicional (como o `STYLE_GUIDE.md` completo) ou ajuste algo específico no README?
