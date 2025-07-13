@@ -1,0 +1,271 @@
+[13-Jul-2025 06:58:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_apcu.dll' (tried: C:\xampp\php\ext\php_apcu.dll (Não foi possível encontrar o módulo especificado), C:\xampp\php\ext\php_php_apcu.dll.dll (Não foi possível encontrar o módulo especificado)) in Unknown on line 0
+[13-Jul-2025 06:58:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_apcu.dll' (tried: C:\xampp\php\ext\php_apcu.dll (Não foi possível encontrar o módulo especificado), C:\xampp\php\ext\php_php_apcu.dll.dll (Não foi possível encontrar o módulo especificado)) in Unknown on line 0
+[13-Jul-2025 04:06:51 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 04:06:51 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 04:07:08 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 04:07:08 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 04:07:16 America/Sao_Paulo] Middleware global: /transacoes
+[13-Jul-2025 04:07:16 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function auth() in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php:70
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(47): App\Core\Router->executeRoute(Array)
+#1 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#2 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 70
+[13-Jul-2025 04:09:54 America/Sao_Paulo] Middleware global: /transacoes
+[13-Jul-2025 04:10:54 America/Sao_Paulo] Middleware global: /transacoes
+[13-Jul-2025 04:10:59 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 04:10:59 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 04:11:02 America/Sao_Paulo] Middleware global: /investimentos
+[13-Jul-2025 04:11:02 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 04:11:04 America/Sao_Paulo] Middleware global: /transacoes
+[13-Jul-2025 04:11:53 America/Sao_Paulo] Middleware global: /auth/login
+[13-Jul-2025 04:11:53 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 04:11:58 America/Sao_Paulo] Middleware global: /auth
+[13-Jul-2025 04:11:58 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 04:12:03 America/Sao_Paulo] Middleware global: /login
+[13-Jul-2025 04:12:03 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function guest() in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php:70
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(47): App\Core\Router->executeRoute(Array)
+#1 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#2 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 70
+[13-Jul-2025 04:15:10 America/Sao_Paulo] Middleware global: /auth/login
+[13-Jul-2025 04:15:10 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 04:16:29 America/Sao_Paulo] Middleware global: /login
+[13-Jul-2025 04:16:29 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function guest() in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php:70
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(47): App\Core\Router->executeRoute(Array)
+#1 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#2 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 70
+[13-Jul-2025 04:34:50 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 04:34:51 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 04:34:54 America/Sao_Paulo] Middleware global: /transacoes
+[13-Jul-2025 04:34:54 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function auth() in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php:77
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(54): App\Core\Router->executeRoute(Array)
+#1 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#2 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 77
+[13-Jul-2025 04:35:12 America/Sao_Paulo] Middleware global: /login
+[13-Jul-2025 04:35:12 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function guest() in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php:77
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(54): App\Core\Router->executeRoute(Array)
+#1 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#2 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 77
+[13-Jul-2025 04:37:58 America/Sao_Paulo] Middleware global: /login
+[13-Jul-2025 04:37:58 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function guest() in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php:78
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(55): App\Core\Router->executeRoute(Array)
+#1 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#2 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 78
+[13-Jul-2025 04:41:01 America/Sao_Paulo] Middleware global: /login
+[13-Jul-2025 04:41:43 America/Sao_Paulo] Middleware global: /login
+[13-Jul-2025 04:50:37 America/Sao_Paulo] PHP Warning:  Undefined variable $middlewares in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 53
+[13-Jul-2025 04:50:37 America/Sao_Paulo] PHP Warning:  Trying to access array offset on value of type null in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 53
+[13-Jul-2025 04:51:04 America/Sao_Paulo] PHP Warning:  Undefined array key "guest" in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 53
+[13-Jul-2025 04:52:38 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function guest() in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php:86
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(63): App\Core\Router->executeRoute(Array)
+#1 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#2 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 86
+[13-Jul-2025 04:53:02 America/Sao_Paulo] Middleware global: /login
+[13-Jul-2025 04:53:02 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function guest() in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php:86
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(63): App\Core\Router->executeRoute(Array)
+#1 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#2 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 86
+[13-Jul-2025 04:54:15 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function guest() in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php:86
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(63): App\Core\Router->executeRoute(Array)
+#1 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#2 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 86
+[13-Jul-2025 04:54:43 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function guest() in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php:87
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(64): App\Core\Router->executeRoute(Array)
+#1 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#2 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 87
+[13-Jul-2025 04:56:12 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function guest() in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php:85
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(62): App\Core\Router->executeRoute(Array)
+#1 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#2 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 85
+[13-Jul-2025 05:01:53 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function App\Controllers\view() in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php:14
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(95): App\Controllers\AuthController->showLogin(Array)
+#1 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(62): App\Core\Router->executeRoute(Array)
+#2 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#3 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php on line 14
+[13-Jul-2025 05:04:21 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function App\Controllers\view() in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php:14
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(95): App\Controllers\AuthController->showLogin(Array)
+#1 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(62): App\Core\Router->executeRoute(Array)
+#2 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#3 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php on line 14
+[13-Jul-2025 05:08:44 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function App\Controllers\view() in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php:14
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(95): App\Controllers\AuthController->showLogin(Array)
+#1 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(62): App\Core\Router->executeRoute(Array)
+#2 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#3 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php on line 14
+[13-Jul-2025 05:09:52 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function App\Controllers\view() in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php:14
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(95): App\Controllers\AuthController->showLogin(Array)
+#1 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(62): App\Core\Router->executeRoute(Array)
+#2 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#3 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php on line 14
+[13-Jul-2025 05:09:53 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function App\Controllers\view() in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php:14
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(95): App\Controllers\AuthController->showLogin(Array)
+#1 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(62): App\Core\Router->executeRoute(Array)
+#2 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#3 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php on line 14
+[13-Jul-2025 05:10:06 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function App\Controllers\view() in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php:14
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(95): App\Controllers\AuthController->showLogin(Array)
+#1 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(62): App\Core\Router->executeRoute(Array)
+#2 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#3 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php on line 14
+[13-Jul-2025 05:10:07 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function App\Controllers\view() in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php:14
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(95): App\Controllers\AuthController->showLogin(Array)
+#1 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(62): App\Core\Router->executeRoute(Array)
+#2 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#3 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php on line 14
+[13-Jul-2025 05:10:07 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function App\Controllers\view() in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php:14
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(95): App\Controllers\AuthController->showLogin(Array)
+#1 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(62): App\Core\Router->executeRoute(Array)
+#2 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#3 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php on line 14
+[13-Jul-2025 05:10:39 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function App\Controllers\view() in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php:14
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(95): App\Controllers\AuthController->showLogin(Array)
+#1 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(62): App\Core\Router->executeRoute(Array)
+#2 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#3 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php on line 14
+[13-Jul-2025 05:10:40 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function App\Controllers\view() in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php:14
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(95): App\Controllers\AuthController->showLogin(Array)
+#1 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(62): App\Core\Router->executeRoute(Array)
+#2 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#3 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php on line 14
+[13-Jul-2025 05:10:53 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function App\Controllers\view() in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php:14
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(95): App\Controllers\AuthController->showLogin(Array)
+#1 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(62): App\Core\Router->executeRoute(Array)
+#2 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#3 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php on line 14
+[13-Jul-2025 05:11:14 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function App\Controllers\view() in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php:14
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(95): App\Controllers\AuthController->showLogin(Array)
+#1 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(62): App\Core\Router->executeRoute(Array)
+#2 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#3 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php on line 14
+[13-Jul-2025 05:14:21 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function App\Controllers\view() in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php:14
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(95): App\Controllers\AuthController->showLogin(Array)
+#1 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(62): App\Core\Router->executeRoute(Array)
+#2 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#3 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php on line 14
+[13-Jul-2025 05:15:51 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function App\Controllers\view() in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php:14
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(95): App\Controllers\AuthController->showLogin(Array)
+#1 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(62): App\Core\Router->executeRoute(Array)
+#2 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#3 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php on line 14
+[13-Jul-2025 05:17:29 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function App\Controllers\view() in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php:14
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(95): App\Controllers\AuthController->showLogin(Array)
+#1 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(62): App\Core\Router->executeRoute(Array)
+#2 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#3 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php on line 14
+[13-Jul-2025 05:21:22 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function App\Controllers\view() in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php:15
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(95): App\Controllers\AuthController->showLogin(Array)
+#1 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(62): App\Core\Router->executeRoute(Array)
+#2 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#3 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php on line 15
+[13-Jul-2025 05:23:05 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function App\Controllers\view() in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php:14
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(95): App\Controllers\AuthController->showLogin(Array)
+#1 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(62): App\Core\Router->executeRoute(Array)
+#2 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#3 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php on line 14
+[13-Jul-2025 05:25:21 America/Sao_Paulo] PHP Warning:  require(C:\xampp\htdocs\financas_pessoais\vendor\composer/../../app/helpers.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\financas_pessoais\vendor\composer\autoload_real.php on line 41
+[13-Jul-2025 05:25:21 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\financas_pessoais\vendor\composer/../../app/helpers.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\financas_pessoais\vendor\composer\autoload_real.php:41
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\vendor\composer\autoload_real.php(45): {closure}('39d9175804f6954...', 'C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\financas_pessoais\vendor\autoload.php(25): ComposerAutoloaderInitf381b92b062dae4648fa9e6101807e80::getLoader()
+#2 C:\xampp\htdocs\financas_pessoais\public\index.php(2): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\vendor\composer\autoload_real.php on line 41
+[13-Jul-2025 05:29:11 America/Sao_Paulo] PHP Warning:  Undefined array key "DB_HOST" in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php on line 13
+[13-Jul-2025 05:29:11 America/Sao_Paulo] PHP Warning:  Undefined array key "DB_NAME" in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php on line 13
+[13-Jul-2025 05:29:11 America/Sao_Paulo] PHP Warning:  Undefined array key "DB_USER" in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php on line 14
+[13-Jul-2025 05:29:11 America/Sao_Paulo] PHP Warning:  Undefined array key "DB_PASS" in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php on line 15
+[13-Jul-2025 05:29:11 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php:12
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Config\Database.php(12): PDO->__construct('mysql:host=;dbn...', NULL, Object(SensitiveParameterValue))
+#1 C:\xampp\htdocs\financas_pessoais\app\Config\Database.php(22): App\Config\Database->__construct()
+#2 C:\xampp\htdocs\financas_pessoais\app\Models\User.php(13): App\Config\Database::getInstance()
+#3 C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php(24): App\Models\User->__construct()
+#4 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(95): App\Controllers\AuthController->register(Array)
+#5 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(62): App\Core\Router->executeRoute(Array)
+#6 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#7 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php on line 12
+[13-Jul-2025 05:32:14 America/Sao_Paulo] PHP Warning:  Undefined array key "DB_HOST" in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php on line 13
+[13-Jul-2025 05:32:14 America/Sao_Paulo] PHP Warning:  Undefined array key "DB_NAME" in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php on line 13
+[13-Jul-2025 05:32:14 America/Sao_Paulo] PHP Warning:  Undefined array key "DB_USER" in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php on line 14
+[13-Jul-2025 05:32:14 America/Sao_Paulo] PHP Warning:  Undefined array key "DB_PASS" in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php on line 15
+[13-Jul-2025 05:32:14 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php:12
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Config\Database.php(12): PDO->__construct('mysql:host=;dbn...', NULL, Object(SensitiveParameterValue))
+#1 C:\xampp\htdocs\financas_pessoais\app\Config\Database.php(22): App\Config\Database->__construct()
+#2 C:\xampp\htdocs\financas_pessoais\app\Models\User.php(13): App\Config\Database::getInstance()
+#3 C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php(24): App\Models\User->__construct()
+#4 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(95): App\Controllers\AuthController->register(Array)
+#5 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(62): App\Core\Router->executeRoute(Array)
+#6 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#7 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php on line 12
+[13-Jul-2025 05:54:02 America/Sao_Paulo] PHP Warning:  Undefined array key "DB_HOST" in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php on line 13
+[13-Jul-2025 05:54:02 America/Sao_Paulo] PHP Warning:  Undefined array key "DB_NAME" in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php on line 13
+[13-Jul-2025 05:54:02 America/Sao_Paulo] PHP Warning:  Undefined array key "DB_USER" in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php on line 14
+[13-Jul-2025 05:54:02 America/Sao_Paulo] PHP Warning:  Undefined array key "DB_PASS" in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php on line 15
+[13-Jul-2025 05:54:02 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php:12
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Config\Database.php(12): PDO->__construct('mysql:host=;dbn...', NULL, Object(SensitiveParameterValue))
+#1 C:\xampp\htdocs\financas_pessoais\app\Config\Database.php(22): App\Config\Database->__construct()
+#2 C:\xampp\htdocs\financas_pessoais\app\Models\User.php(13): App\Config\Database::getInstance()
+#3 C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php(24): App\Models\User->__construct()
+#4 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(95): App\Controllers\AuthController->register(Array)
+#5 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(62): App\Core\Router->executeRoute(Array)
+#6 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#7 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php on line 12

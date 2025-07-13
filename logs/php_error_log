@@ -1,0 +1,639 @@
+[13-Jul-2025 08:22:57 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_apcu.dll' (tried: C:\xampp\php\ext\php_apcu.dll (Não foi possível encontrar o módulo especificado), C:\xampp\php\ext\php_php_apcu.dll.dll (Não foi possível encontrar o módulo especificado)) in Unknown on line 0
+[13-Jul-2025 08:25:07 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_apcu.dll' (tried: C:\xampp\php\ext\php_apcu.dll (Não foi possível encontrar o módulo especificado), C:\xampp\php\ext\php_php_apcu.dll.dll (Não foi possível encontrar o módulo especificado)) in Unknown on line 0
+[13-Jul-2025 08:26:41 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_apcu.dll' (tried: C:\xampp\php\ext\php_apcu.dll (Não foi possível encontrar o módulo especificado), C:\xampp\php\ext\php_php_apcu.dll.dll (Não foi possível encontrar o módulo especificado)) in Unknown on line 0
+[13-Jul-2025 08:52:57 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_apcu.dll' (tried: C:\xampp\php\ext\php_apcu.dll (Não foi possível encontrar o módulo especificado), C:\xampp\php\ext\php_php_apcu.dll.dll (Não foi possível encontrar o módulo especificado)) in Unknown on line 0
+[13-Jul-2025 08:53:23 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_apcu.dll' (tried: C:\xampp\php\ext\php_apcu.dll (Não foi possível encontrar o módulo especificado), C:\xampp\php\ext\php_php_apcu.dll.dll (Não foi possível encontrar o módulo especificado)) in Unknown on line 0
+[13-Jul-2025 08:54:17 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_apcu.dll' (tried: C:\xampp\php\ext\php_apcu.dll (Não foi possível encontrar o módulo especificado), C:\xampp\php\ext\php_php_apcu.dll.dll (Não foi possível encontrar o módulo especificado)) in Unknown on line 0
+[13-Jul-2025 08:54:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_apcu.dll' (tried: C:\xampp\php\ext\php_apcu.dll (Não foi possível encontrar o módulo especificado), C:\xampp\php\ext\php_php_apcu.dll.dll (Não foi possível encontrar o módulo especificado)) in Unknown on line 0
+[13-Jul-2025 05:54:25 America/Sao_Paulo] PHP Warning:  Undefined array key "DB_HOST" in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php on line 13
+[13-Jul-2025 05:54:25 America/Sao_Paulo] PHP Warning:  Undefined array key "DB_NAME" in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php on line 13
+[13-Jul-2025 05:54:25 America/Sao_Paulo] PHP Warning:  Undefined array key "DB_USER" in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php on line 14
+[13-Jul-2025 05:54:25 America/Sao_Paulo] PHP Warning:  Undefined array key "DB_PASS" in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php on line 15
+[13-Jul-2025 05:54:25 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php:12
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Config\Database.php(12): PDO->__construct('mysql:host=;dbn...', NULL, Object(SensitiveParameterValue))
+#1 C:\xampp\htdocs\financas_pessoais\app\Config\Database.php(22): App\Config\Database->__construct()
+#2 C:\xampp\htdocs\financas_pessoais\app\Models\User.php(13): App\Config\Database::getInstance()
+#3 C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php(24): App\Models\User->__construct()
+#4 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(95): App\Controllers\AuthController->register(Array)
+#5 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(62): App\Core\Router->executeRoute(Array)
+#6 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#7 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php on line 12
+[13-Jul-2025 06:01:35 America/Sao_Paulo] PHP Warning:  Undefined array key "DB_NAME" in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php on line 18
+[13-Jul-2025 06:01:35 America/Sao_Paulo] PHP Warning:  Undefined array key "DB_USER" in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php on line 19
+[13-Jul-2025 06:01:35 America/Sao_Paulo] PHP Warning:  Undefined array key "DB_PASS" in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php on line 20
+[13-Jul-2025 06:01:35 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php:17
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Config\Database.php(17): PDO->__construct('mysql:host=127....', NULL, Object(SensitiveParameterValue))
+#1 C:\xampp\htdocs\financas_pessoais\app\Config\Database.php(27): App\Config\Database->__construct()
+#2 C:\xampp\htdocs\financas_pessoais\app\Models\User.php(13): App\Config\Database::getInstance()
+#3 C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php(24): App\Models\User->__construct()
+#4 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(95): App\Controllers\AuthController->register(Array)
+#5 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(62): App\Core\Router->executeRoute(Array)
+#6 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#7 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php on line 17
+[13-Jul-2025 06:02:22 America/Sao_Paulo] PHP Warning:  Undefined array key "DB_USER" in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php on line 19
+[13-Jul-2025 06:02:22 America/Sao_Paulo] PHP Warning:  Undefined array key "DB_PASS" in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php on line 20
+[13-Jul-2025 06:02:22 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO) in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php:17
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Config\Database.php(17): PDO->__construct('mysql:host=127....', NULL, Object(SensitiveParameterValue))
+#1 C:\xampp\htdocs\financas_pessoais\app\Config\Database.php(27): App\Config\Database->__construct()
+#2 C:\xampp\htdocs\financas_pessoais\app\Models\User.php(13): App\Config\Database::getInstance()
+#3 C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php(24): App\Models\User->__construct()
+#4 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(95): App\Controllers\AuthController->register(Array)
+#5 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(62): App\Core\Router->executeRoute(Array)
+#6 C:\xampp\htdocs\financas_pessoais\public\index.php(4): App\Core\Router->dispatch()
+#7 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Config\Database.php on line 17
+[13-Jul-2025 06:14:20 America/Sao_Paulo] PHP Warning:  Undefined global variable $_SESSION in C:\xampp\htdocs\financas_pessoais\app\Views\auth\register.php on line 4
+[13-Jul-2025 06:22:27 America/Sao_Paulo] PHP Warning:  require_once(C:\xampp\htdocs\financas_pessoais/app/Helpers/api_helper.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\financas_pessoais\public\index.php on line 26
+[13-Jul-2025 06:22:27 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\financas_pessoais/app/Helpers/api_helper.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\financas_pessoais\public\index.php:26
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\public\index.php on line 26
+[13-Jul-2025 06:23:09 America/Sao_Paulo] PHP Warning:  require_once(C:\xampp\htdocs\financas_pessoais/app/Util/helpers.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\financas_pessoais\public\index.php on line 26
+[13-Jul-2025 06:23:09 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\financas_pessoais/app/Util/helpers.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\financas_pessoais\public\index.php:26
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\public\index.php on line 26
+[13-Jul-2025 06:53:20 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function App\Middlewares\MaintenanceMiddleware() in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php:55
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\public\index.php(29): App\Core\Router->dispatch()
+#1 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 55
+[13-Jul-2025 06:53:41 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function handle() on string in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php:55
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\public\index.php(29): App\Core\Router->dispatch()
+#1 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 55
+[13-Jul-2025 06:54:39 America/Sao_Paulo] PHP Warning:  Undefined property: App\Core\Router::$resolveMiddleware in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 55
+[13-Jul-2025 06:54:39 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php:55
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\public\index.php(29): App\Core\Router->dispatch()
+#1 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 55
+[13-Jul-2025 07:01:30 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 07:01:52 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 07:04:11 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 07:04:11 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 07:04:45 America/Sao_Paulo] Middleware global: /transacoes
+[13-Jul-2025 07:04:45 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class "auth" not found in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php:95
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(68): App\Core\Router->executeRoute(Array)
+#1 C:\xampp\htdocs\financas_pessoais\public\index.php(29): App\Core\Router->dispatch()
+#2 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 95
+[13-Jul-2025 07:05:51 America/Sao_Paulo] Middleware global: /transacoes
+[13-Jul-2025 07:05:51 America/Sao_Paulo] PHP Warning:  Undefined property: App\Core\Router::$resolveMiddleware in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 95
+[13-Jul-2025 07:05:51 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php:95
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(68): App\Core\Router->executeRoute(Array)
+#1 C:\xampp\htdocs\financas_pessoais\public\index.php(29): App\Core\Router->dispatch()
+#2 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 95
+[13-Jul-2025 07:07:36 America/Sao_Paulo] Middleware global: /transacoes
+[13-Jul-2025 07:08:03 America/Sao_Paulo] Middleware global: /transacoes
+[13-Jul-2025 07:08:48 America/Sao_Paulo] Middleware global: /transacoes
+[13-Jul-2025 07:18:21 America/Sao_Paulo] PHP Warning:  Array to string conversion in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 42
+[13-Jul-2025 07:18:21 America/Sao_Paulo] PHP Warning:  Array to string conversion in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 42
+[13-Jul-2025 07:18:44 America/Sao_Paulo] PHP Warning:  Undefined array key 0 in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 42
+[13-Jul-2025 07:22:45 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method App\Middlewares\AuthMiddleware::handel() in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php:89
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(62): App\Core\Router->executeRoute(Array)
+#1 C:\xampp\htdocs\financas_pessoais\public\index.php(29): App\Core\Router->dispatch()
+#2 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 89
+[13-Jul-2025 07:25:21 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function handle() on string in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php:55
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\public\index.php(29): App\Core\Router->dispatch()
+#1 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 55
+[13-Jul-2025 07:36:01 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function handle() on string in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php:56
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\public\index.php(29): App\Core\Router->dispatch()
+#1 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 56
+[13-Jul-2025 07:38:47 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to a member function handle() on string in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php:57
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\public\index.php(29): App\Core\Router->dispatch()
+#1 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 57
+[13-Jul-2025 07:50:35 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: Cannot use "::class" on value of type string in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php:55
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\public\index.php(29): App\Core\Router->dispatch()
+#1 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 55
+[13-Jul-2025 07:51:25 America/Sao_Paulo] PHP Warning:  Attempt to read property "handle" on string in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 55
+[13-Jul-2025 07:51:25 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class name must be a valid object or a string in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php:55
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\public\index.php(29): App\Core\Router->dispatch()
+#1 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 55
+[13-Jul-2025 07:51:54 America/Sao_Paulo] Middleware global: /login
+[13-Jul-2025 07:51:59 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 07:52:00 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 07:52:05 America/Sao_Paulo] Middleware global: /transacoes
+[13-Jul-2025 07:52:05 America/Sao_Paulo] Middleware global: /login
+[13-Jul-2025 07:57:51 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 07:57:51 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:02:23 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:02:23 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:02:44 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:02:44 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:02:48 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:02:48 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:02:53 America/Sao_Paulo] Middleware global: /transacoes
+[13-Jul-2025 08:03:06 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:03:06 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:04:45 America/Sao_Paulo] Middleware global: /transacoes
+[13-Jul-2025 08:05:40 America/Sao_Paulo] Middleware global: /transacoes
+[13-Jul-2025 08:07:38 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:07:38 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:08:01 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:08:01 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:08:26 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:08:34 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:09:49 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:09:49 America/Sao_Paulo] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 60
+[13-Jul-2025 08:10:17 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:10:17 America/Sao_Paulo] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 60
+[13-Jul-2025 08:10:19 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:10:19 America/Sao_Paulo] PHP Warning:  Undefined array key "" in C:\xampp\htdocs\financas_pessoais\app\Core\Router.php on line 60
+[13-Jul-2025 08:11:49 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:12:06 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:12:18 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:12:18 America/Sao_Paulo] Middleware global: /login
+[13-Jul-2025 08:12:22 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:12:22 America/Sao_Paulo] Middleware global: /login
+[13-Jul-2025 08:12:40 America/Sao_Paulo] Middleware global: /logout
+[13-Jul-2025 08:12:40 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:12:51 America/Sao_Paulo] Middleware global: /logout
+[13-Jul-2025 08:12:51 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:13:59 America/Sao_Paulo] Middleware global: /logout
+[13-Jul-2025 08:13:59 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:14:25 America/Sao_Paulo] Middleware global: /logout
+[13-Jul-2025 08:14:25 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:14:29 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:14:29 America/Sao_Paulo] Middleware global: /login
+[13-Jul-2025 08:14:43 America/Sao_Paulo] Middleware global: /login
+[13-Jul-2025 08:14:43 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:15:09 America/Sao_Paulo] Middleware global: /transacoes
+[13-Jul-2025 08:15:15 America/Sao_Paulo] Middleware global: /transacoes/8
+[13-Jul-2025 08:15:15 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:15:22 America/Sao_Paulo] Middleware global: /perfil
+[13-Jul-2025 08:15:22 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:15:26 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:15:29 America/Sao_Paulo] Middleware global: /perfil
+[13-Jul-2025 08:15:29 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:15:31 America/Sao_Paulo] Middleware global: /transacoes
+[13-Jul-2025 08:15:32 America/Sao_Paulo] Middleware global: /perfil
+[13-Jul-2025 08:15:33 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:28:37 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 08:28:37 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:29:54 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 08:29:56 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 08:30:10 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 08:30:10 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:30:18 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 08:30:18 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:30:54 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 08:30:55 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:31:19 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:31:56 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 08:31:56 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:32:36 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:32:39 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:32:57 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:33:03 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:33:09 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:33:37 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:33:46 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 08:33:55 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 08:35:55 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 08:35:55 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:36:11 America/Sao_Paulo] Middleware global: /profile
+[13-Jul-2025 08:36:11 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:36:15 America/Sao_Paulo] Middleware global: /logout
+[13-Jul-2025 08:36:15 America/Sao_Paulo] Middleware global: /login
+[13-Jul-2025 08:36:22 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 08:36:22 America/Sao_Paulo] PHP Warning:  require(C:\xampp\htdocs\financas_pessoais\app\Utils/../Views/auth/forgot-password.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\financas_pessoais\app\Utils\helpers.php on line 11
+[13-Jul-2025 08:36:22 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\financas_pessoais\app\Utils/../Views/auth/forgot-password.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\financas_pessoais\app\Utils\helpers.php:11
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php(73): view('auth/forgot-pas...')
+#1 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(96): App\Controllers\AuthController->showForgotPassword(Array)
+#2 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(63): App\Core\Router->executeRoute(Array)
+#3 C:\xampp\htdocs\financas_pessoais\public\index.php(29): App\Core\Router->dispatch()
+#4 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Utils\helpers.php on line 11
+[13-Jul-2025 08:38:21 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 08:38:21 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:38:28 America/Sao_Paulo] Middleware global: /transacoes
+[13-Jul-2025 08:38:28 America/Sao_Paulo] Middleware global: /login
+[13-Jul-2025 08:38:47 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 08:38:47 America/Sao_Paulo] PHP Warning:  mail(): &quot;sendmail_from&quot; not set in php.ini or custom &quot;From:&quot; header missing in C:\xampp\htdocs\financas_pessoais\app\Services\EmailService.php on line 18
+[13-Jul-2025 08:38:47 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 08:38:48 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:41:25 America/Sao_Paulo] Middleware global: /login
+[13-Jul-2025 08:42:18 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 08:42:18 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:42:33 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 08:42:33 America/Sao_Paulo] PHP Warning:  mail(): &quot;sendmail_from&quot; not set in php.ini or custom &quot;From:&quot; header missing in C:\xampp\htdocs\financas_pessoais\app\Services\EmailService.php on line 18
+[13-Jul-2025 08:42:33 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 08:42:34 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:42:41 America/Sao_Paulo] Middleware global: /login
+[13-Jul-2025 08:45:07 America/Sao_Paulo] Middleware global: /reset-password
+[13-Jul-2025 08:45:07 America/Sao_Paulo] PHP Warning:  Undefined array key "token" in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php on line 98
+[13-Jul-2025 08:45:07 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:48:53 America/Sao_Paulo] Middleware global: /register
+[13-Jul-2025 08:48:53 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:49:01 America/Sao_Paulo] Middleware global: /login
+[13-Jul-2025 08:49:57 America/Sao_Paulo] Middleware global: /register
+[13-Jul-2025 08:49:57 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\financas_pessoais\app\Models\User.php:22
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Models\User.php(22): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php(31): App\Models\User->create(Array)
+#2 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(96): App\Controllers\AuthController->register(Array)
+#3 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(63): App\Core\Router->executeRoute(Array)
+#4 C:\xampp\htdocs\financas_pessoais\public\index.php(29): App\Core\Router->dispatch()
+#5 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Models\User.php on line 22
+[13-Jul-2025 08:51:17 America/Sao_Paulo] Middleware global: /register
+[13-Jul-2025 08:51:18 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:54:49 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:55:01 America/Sao_Paulo] Middleware global: /register
+[13-Jul-2025 08:55:01 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:55:08 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:55:08 America/Sao_Paulo] Middleware global: /favicon.ico
+[13-Jul-2025 11:55:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_apcu.dll' (tried: C:\xampp\php\ext\php_apcu.dll (Não foi possível encontrar o módulo especificado), C:\xampp\php\ext\php_php_apcu.dll.dll (Não foi possível encontrar o módulo especificado)) in Unknown on line 0
+[13-Jul-2025 11:55:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_apcu.dll' (tried: C:\xampp\php\ext\php_apcu.dll (Não foi possível encontrar o módulo especificado), C:\xampp\php\ext\php_php_apcu.dll.dll (Não foi possível encontrar o módulo especificado)) in Unknown on line 0
+[13-Jul-2025 08:55:23 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:55:31 America/Sao_Paulo] Middleware global: /transacoes
+[13-Jul-2025 08:55:43 America/Sao_Paulo] Middleware global: /profile
+[13-Jul-2025 08:55:43 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:55:43 America/Sao_Paulo] Middleware global: /assets/images/favicon.png
+[13-Jul-2025 08:55:46 America/Sao_Paulo] Middleware global: /logout
+[13-Jul-2025 08:55:46 America/Sao_Paulo] Middleware global: /login
+[13-Jul-2025 08:55:53 America/Sao_Paulo] Middleware global: /register
+[13-Jul-2025 08:55:54 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:56:15 America/Sao_Paulo] Middleware global: /register
+[13-Jul-2025 08:56:15 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:56:34 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 08:56:34 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 08:56:44 America/Sao_Paulo] Middleware global: /transactions
+[13-Jul-2025 08:56:44 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:56:53 America/Sao_Paulo] Middleware global: /transacoes
+[13-Jul-2025 08:59:17 America/Sao_Paulo] Middleware global: /transacoe
+[13-Jul-2025 08:59:17 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:59:21 America/Sao_Paulo] Middleware global: /logout
+[13-Jul-2025 08:59:21 America/Sao_Paulo] Middleware global: /login
+[13-Jul-2025 08:59:21 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:59:31 America/Sao_Paulo] Middleware global: /register
+[13-Jul-2025 08:59:31 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:59:35 America/Sao_Paulo] Middleware global: /login
+[13-Jul-2025 08:59:35 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:59:37 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 08:59:37 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:59:39 America/Sao_Paulo] Middleware global: /login
+[13-Jul-2025 08:59:39 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:59:43 America/Sao_Paulo] Middleware global: /register
+[13-Jul-2025 08:59:43 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:59:48 America/Sao_Paulo] Middleware global: /login
+[13-Jul-2025 08:59:48 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:59:50 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 08:59:50 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 08:59:55 America/Sao_Paulo] Middleware global: /login
+[13-Jul-2025 08:59:55 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 09:00:12 America/Sao_Paulo] Middleware global: /login
+[13-Jul-2025 09:00:12 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 12:07:50 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_apcu.dll' (tried: C:\xampp\php\ext\php_apcu.dll (Não foi possível encontrar o módulo especificado), C:\xampp\php\ext\php_php_apcu.dll.dll (Não foi possível encontrar o módulo especificado)) in Unknown on line 0
+[13-Jul-2025 09:17:25 America/Sao_Paulo] Middleware global: /8
+[13-Jul-2025 09:17:25 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 09:17:29 America/Sao_Paulo] Middleware global: /logout
+[13-Jul-2025 09:17:29 America/Sao_Paulo] Middleware global: /login
+[13-Jul-2025 09:17:29 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 09:17:31 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 09:17:31 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 09:17:45 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 09:17:45 America/Sao_Paulo] PHP Warning:  mail(): &quot;sendmail_from&quot; not set in php.ini or custom &quot;From:&quot; header missing in C:\xampp\htdocs\financas_pessoais\app\Services\EmailService.php on line 18
+[13-Jul-2025 09:17:45 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 09:17:45 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 09:21:01 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 09:21:01 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 09:21:10 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 09:21:10 America/Sao_Paulo] PHP Warning:  mail(): &quot;sendmail_from&quot; not set in php.ini or custom &quot;From:&quot; header missing in C:\xampp\htdocs\financas_pessoais\app\Services\EmailService.php on line 18
+[13-Jul-2025 09:21:10 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 09:21:10 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 09:26:05 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 09:26:05 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 09:26:05 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 09:26:52 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 09:26:52 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 09:27:01 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 09:27:01 America/Sao_Paulo] PHP Warning:  mail(): &quot;sendmail_from&quot; not set in php.ini or custom &quot;From:&quot; header missing in C:\xampp\htdocs\financas_pessoais\app\Services\EmailService.php on line 18
+[13-Jul-2025 09:27:01 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 09:27:01 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 09:35:18 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 09:35:18 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 09:35:27 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 09:35:28 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Class "App\Services\EmailService" not found in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php:84
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(96): App\Controllers\AuthController->sendResetLink(Array)
+#1 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(63): App\Core\Router->executeRoute(Array)
+#2 C:\xampp\htdocs\financas_pessoais\public\index.php(29): App\Core\Router->dispatch()
+#3 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php on line 84
+[13-Jul-2025 09:36:17 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 09:36:17 America/Sao_Paulo] PHP Warning:  Undefined array key "MAIL_FROM" in C:\xampp\htdocs\financas_pessoais\app\Services\EmailService.php on line 29
+[13-Jul-2025 09:36:17 America/Sao_Paulo] Erro ao configurar PHPMailer: Invalid address:  (From): 
+[13-Jul-2025 09:36:17 America/Sao_Paulo] PHP Fatal error:  Uncaught PHPMailer\PHPMailer\Exception: Invalid address:  (From):  in C:\xampp\htdocs\financas_pessoais\vendor\phpmailer\phpmailer\src\PHPMailer.php:1354
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Services\EmailService.php(28): PHPMailer\PHPMailer\PHPMailer->setFrom('', 'Finan\xC3\xA7as Pesso...')
+#1 C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php(84): App\Services\EmailService->__construct()
+#2 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(96): App\Controllers\AuthController->sendResetLink(Array)
+#3 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(63): App\Core\Router->executeRoute(Array)
+#4 C:\xampp\htdocs\financas_pessoais\public\index.php(29): App\Core\Router->dispatch()
+#5 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\vendor\phpmailer\phpmailer\src\PHPMailer.php on line 1354
+[13-Jul-2025 09:36:47 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 09:36:47 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method App\Services\EmailService::send() in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php:84
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(96): App\Controllers\AuthController->sendResetLink(Array)
+#1 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(63): App\Core\Router->executeRoute(Array)
+#2 C:\xampp\htdocs\financas_pessoais\public\index.php(29): App\Core\Router->dispatch()
+#3 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Controllers\AuthController.php on line 84
+[13-Jul-2025 09:37:55 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 09:37:58 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 09:37:58 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 09:40:53 America/Sao_Paulo] Middleware global: /reset-password?token=b0c17eaf9d154590a606446b4792697cb53b9651944901a9e12d077817e7a4e9
+[13-Jul-2025 09:40:53 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 09:41:16 America/Sao_Paulo] Middleware global: /reset-password
+[13-Jul-2025 09:41:16 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 09:41:16 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 09:44:21 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 09:44:21 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 09:44:33 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 09:44:36 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 09:44:36 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 09:45:50 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 09:45:50 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 09:45:59 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 09:46:01 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 09:46:01 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 09:46:13 America/Sao_Paulo] Middleware global: /reset-password?token=cbd8a9549797265912e786d1004ceea46fdc1a8d9ea52fb402ac8597fca4254c
+[13-Jul-2025 09:46:13 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 09:46:31 America/Sao_Paulo] Middleware global: /reset-password
+[13-Jul-2025 09:46:31 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 09:46:31 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 09:47:54 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 09:47:54 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 09:52:43 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 09:52:43 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 09:52:50 America/Sao_Paulo] Middleware global: /reset-password?token=cbd8a9549797265912e786d1004ceea46fdc1a8d9ea52fb402ac8597fca4254c
+[13-Jul-2025 09:52:50 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 09:53:01 America/Sao_Paulo] Middleware global: /reset-password
+[13-Jul-2025 09:53:01 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 09:53:01 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 09:53:36 America/Sao_Paulo] Middleware global: /reset-password?token=cbd8a9549797265912e786d1004ceea46fdc1a8d9ea52fb402ac8597fca4254c
+[13-Jul-2025 09:53:36 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 09:53:48 America/Sao_Paulo] Middleware global: /reset-password
+[13-Jul-2025 09:54:10 America/Sao_Paulo] Middleware global: /reset-password
+[13-Jul-2025 09:57:07 America/Sao_Paulo] Middleware global: /reset-password?token=cbd8a9549797265912e786d1004ceea46fdc1a8d9ea52fb402ac8597fca4254c
+[13-Jul-2025 09:59:57 America/Sao_Paulo] Middleware global: /reset-password?token=cbd8a9549797265912e786d1004ceea46fdc1a8d9ea52fb402ac8597fca4254c
+[13-Jul-2025 09:59:57 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 10:00:10 America/Sao_Paulo] Middleware global: /reset-password
+[13-Jul-2025 10:03:07 America/Sao_Paulo] Middleware global: /reset-password?token=bf50c8338bae4a783019beb75291cc5fa0ff14b711b4b383107f5632673718b7
+[13-Jul-2025 10:03:07 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 10:03:19 America/Sao_Paulo] Middleware global: /reset-password
+[13-Jul-2025 10:03:36 America/Sao_Paulo] Middleware global: /reset-password
+[13-Jul-2025 10:04:02 America/Sao_Paulo] Middleware global: /reset-password
+[13-Jul-2025 10:04:02 America/Sao_Paulo] Middleware global: /login
+[13-Jul-2025 10:04:02 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 10:04:19 America/Sao_Paulo] Middleware global: /login
+[13-Jul-2025 10:04:19 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 10:04:23 America/Sao_Paulo] Middleware global: /8
+[13-Jul-2025 10:04:23 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 10:04:32 America/Sao_Paulo] Middleware global: /investimentos
+[13-Jul-2025 10:04:32 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 10:04:33 America/Sao_Paulo] Middleware global: /transacoes
+[13-Jul-2025 10:04:39 America/Sao_Paulo] Middleware global: /investimentos
+[13-Jul-2025 10:04:39 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 10:05:25 America/Sao_Paulo] Middleware global: /forgot-password
+[13-Jul-2025 10:05:25 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 10:05:29 America/Sao_Paulo] Middleware global: /7
+[13-Jul-2025 10:05:29 America/Sao_Paulo] Middleware global: /assets/js/app.js
+[13-Jul-2025 10:05:31 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 10:07:58 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 10:17:04 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 10:17:04 America/Sao_Paulo] PHP Warning:  require(C:\xampp\htdocs\financas_pessoais\app\Utils/../Views/dashboard/index.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\financas_pessoais\app\Utils\helpers.php on line 11
+[13-Jul-2025 10:17:04 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\financas_pessoais\app\Utils/../Views/dashboard/index.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\financas_pessoais\app\Utils\helpers.php:11
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Controllers\DashboardController.php(13): view('dashboard/index')
+#1 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(96): App\Controllers\DashboardController->index(Array)
+#2 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(63): App\Core\Router->executeRoute(Array)
+#3 C:\xampp\htdocs\financas_pessoais\public\index.php(29): App\Core\Router->dispatch()
+#4 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Utils\helpers.php on line 11
+[13-Jul-2025 13:18:16 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'php_apcu.dll' (tried: C:\xampp\php\ext\php_apcu.dll (Não foi possível encontrar o módulo especificado), C:\xampp\php\ext\php_php_apcu.dll.dll (Não foi possível encontrar o módulo especificado)) in Unknown on line 0
+[13-Jul-2025 10:18:52 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 10:18:52 America/Sao_Paulo] PHP Warning:  require(C:\xampp\htdocs\financas_pessoais\app\Utils/../Views/dashboard/index.php): Failed to open stream: No such file or directory in C:\xampp\htdocs\financas_pessoais\app\Utils\helpers.php on line 11
+[13-Jul-2025 10:18:52 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Failed opening required 'C:\xampp\htdocs\financas_pessoais\app\Utils/../Views/dashboard/index.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\financas_pessoais\app\Utils\helpers.php:11
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Controllers\DashboardController.php(9): view('dashboard/index')
+#1 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(96): App\Controllers\DashboardController->index(Array)
+#2 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(63): App\Core\Router->executeRoute(Array)
+#3 C:\xampp\htdocs\financas_pessoais\public\index.php(29): App\Core\Router->dispatch()
+#4 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Utils\helpers.php on line 11
+[13-Jul-2025 10:19:59 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 10:20:27 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 10:21:26 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 10:21:26 America/Sao_Paulo] PHP Warning:  Undefined variable $balance in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 60
+[13-Jul-2025 10:21:26 America/Sao_Paulo] PHP Warning:  Undefined variable $monthlyIncome in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 70
+[13-Jul-2025 10:21:26 America/Sao_Paulo] PHP Warning:  Undefined variable $monthlyExpenses in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 80
+[13-Jul-2025 10:21:26 America/Sao_Paulo] PHP Warning:  Undefined variable $upcomingBills in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 107
+[13-Jul-2025 10:21:26 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 107
+[13-Jul-2025 10:21:26 America/Sao_Paulo] PHP Warning:  Undefined variable $transactions in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 153
+[13-Jul-2025 10:21:26 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 153
+[13-Jul-2025 10:21:26 America/Sao_Paulo] PHP Warning:  Undefined variable $budgets in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 229
+[13-Jul-2025 10:21:26 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 229
+[13-Jul-2025 10:21:26 America/Sao_Paulo] PHP Warning:  Undefined variable $categories in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 302
+[13-Jul-2025 10:21:26 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 302
+[13-Jul-2025 10:21:26 America/Sao_Paulo] PHP Warning:  Undefined variable $expensesByCategory in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 334
+[13-Jul-2025 10:21:26 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php:334
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php(334): array_column(NULL, 'category')
+#1 C:\xampp\htdocs\financas_pessoais\app\Utils\helpers.php(11): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\financas_pessoais\app\Controllers\DashboardController.php(9): view('dashboard/index')
+#3 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(96): App\Controllers\DashboardController->index(Array)
+#4 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(63): App\Core\Router->executeRoute(Array)
+#5 C:\xampp\htdocs\financas_pessoais\public\index.php(29): App\Core\Router->dispatch()
+#6 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 334
+[13-Jul-2025 10:22:26 America/Sao_Paulo] Middleware global: /transacoes
+[13-Jul-2025 10:22:34 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 10:22:34 America/Sao_Paulo] PHP Warning:  Undefined variable $balance in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 60
+[13-Jul-2025 10:22:34 America/Sao_Paulo] PHP Warning:  Undefined variable $monthlyIncome in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 70
+[13-Jul-2025 10:22:34 America/Sao_Paulo] PHP Warning:  Undefined variable $monthlyExpenses in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 80
+[13-Jul-2025 10:22:34 America/Sao_Paulo] PHP Warning:  Undefined variable $upcomingBills in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 107
+[13-Jul-2025 10:22:34 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 107
+[13-Jul-2025 10:22:34 America/Sao_Paulo] PHP Warning:  Undefined variable $transactions in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 153
+[13-Jul-2025 10:22:34 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 153
+[13-Jul-2025 10:22:34 America/Sao_Paulo] PHP Warning:  Undefined variable $budgets in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 229
+[13-Jul-2025 10:22:34 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 229
+[13-Jul-2025 10:22:34 America/Sao_Paulo] PHP Warning:  Undefined variable $categories in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 302
+[13-Jul-2025 10:22:34 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 302
+[13-Jul-2025 10:22:34 America/Sao_Paulo] PHP Warning:  Undefined variable $expensesByCategory in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 334
+[13-Jul-2025 10:22:34 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php:334
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php(334): array_column(NULL, 'category')
+#1 C:\xampp\htdocs\financas_pessoais\app\Utils\helpers.php(11): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\financas_pessoais\app\Controllers\DashboardController.php(9): view('dashboard/index')
+#3 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(96): App\Controllers\DashboardController->index(Array)
+#4 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(63): App\Core\Router->executeRoute(Array)
+#5 C:\xampp\htdocs\financas_pessoais\public\index.php(29): App\Core\Router->dispatch()
+#6 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 334
+[13-Jul-2025 10:23:28 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 10:23:28 America/Sao_Paulo] PHP Warning:  Undefined variable $balance in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 60
+[13-Jul-2025 10:23:28 America/Sao_Paulo] PHP Warning:  Undefined variable $monthlyIncome in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 70
+[13-Jul-2025 10:23:28 America/Sao_Paulo] PHP Warning:  Undefined variable $monthlyExpenses in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 80
+[13-Jul-2025 10:23:28 America/Sao_Paulo] PHP Warning:  Undefined variable $upcomingBills in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 107
+[13-Jul-2025 10:23:28 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 107
+[13-Jul-2025 10:23:28 America/Sao_Paulo] PHP Warning:  Undefined variable $transactions in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 153
+[13-Jul-2025 10:23:28 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 153
+[13-Jul-2025 10:23:28 America/Sao_Paulo] PHP Warning:  Undefined variable $budgets in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 229
+[13-Jul-2025 10:23:28 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 229
+[13-Jul-2025 10:23:28 America/Sao_Paulo] PHP Warning:  Undefined variable $categories in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 302
+[13-Jul-2025 10:23:28 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 302
+[13-Jul-2025 10:23:28 America/Sao_Paulo] PHP Warning:  Undefined variable $expensesByCategory in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 334
+[13-Jul-2025 10:23:28 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php:334
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php(334): array_column(NULL, 'category')
+#1 C:\xampp\htdocs\financas_pessoais\app\Utils\helpers.php(11): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\financas_pessoais\app\Controllers\DashboardController.php(9): view('dashboard/index')
+#3 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(96): App\Controllers\DashboardController->index(Array)
+#4 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(63): App\Core\Router->executeRoute(Array)
+#5 C:\xampp\htdocs\financas_pessoais\public\index.php(29): App\Core\Router->dispatch()
+#6 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 334
+[13-Jul-2025 10:26:32 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 10:26:32 America/Sao_Paulo] PHP Warning:  Undefined variable $monthlyIncome in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 70
+[13-Jul-2025 10:26:32 America/Sao_Paulo] PHP Warning:  Undefined variable $monthlyExpenses in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 80
+[13-Jul-2025 10:26:32 America/Sao_Paulo] PHP Warning:  Undefined variable $upcomingBills in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 107
+[13-Jul-2025 10:26:32 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 107
+[13-Jul-2025 10:26:32 America/Sao_Paulo] PHP Warning:  Undefined variable $transactions in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 153
+[13-Jul-2025 10:26:32 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 153
+[13-Jul-2025 10:26:32 America/Sao_Paulo] PHP Warning:  Undefined variable $budgets in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 229
+[13-Jul-2025 10:26:32 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 229
+[13-Jul-2025 10:26:32 America/Sao_Paulo] PHP Warning:  Undefined variable $categories in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 302
+[13-Jul-2025 10:26:32 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 302
+[13-Jul-2025 10:26:32 America/Sao_Paulo] PHP Warning:  Undefined variable $expensesByCategory in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 334
+[13-Jul-2025 10:26:32 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php:334
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php(334): array_column(NULL, 'category')
+#1 C:\xampp\htdocs\financas_pessoais\app\Utils\helpers.php(11): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\financas_pessoais\app\Controllers\DashboardController.php(9): view('dashboard/index', Array)
+#3 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(96): App\Controllers\DashboardController->index(Array)
+#4 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(63): App\Core\Router->executeRoute(Array)
+#5 C:\xampp\htdocs\financas_pessoais\public\index.php(29): App\Core\Router->dispatch()
+#6 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 334
+[13-Jul-2025 10:27:15 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 10:27:15 America/Sao_Paulo] PHP Warning:  Undefined variable $monthlyExpenses in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 80
+[13-Jul-2025 10:27:15 America/Sao_Paulo] PHP Warning:  Undefined variable $upcomingBills in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 107
+[13-Jul-2025 10:27:15 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 107
+[13-Jul-2025 10:27:15 America/Sao_Paulo] PHP Warning:  Undefined variable $transactions in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 153
+[13-Jul-2025 10:27:15 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 153
+[13-Jul-2025 10:27:15 America/Sao_Paulo] PHP Warning:  Undefined variable $budgets in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 229
+[13-Jul-2025 10:27:15 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 229
+[13-Jul-2025 10:27:15 America/Sao_Paulo] PHP Warning:  Undefined variable $categories in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 302
+[13-Jul-2025 10:27:15 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 302
+[13-Jul-2025 10:27:15 America/Sao_Paulo] PHP Warning:  Undefined variable $expensesByCategory in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 334
+[13-Jul-2025 10:27:15 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php:334
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php(334): array_column(NULL, 'category')
+#1 C:\xampp\htdocs\financas_pessoais\app\Utils\helpers.php(11): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\financas_pessoais\app\Controllers\DashboardController.php(9): view('dashboard/index', Array)
+#3 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(96): App\Controllers\DashboardController->index(Array)
+#4 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(63): App\Core\Router->executeRoute(Array)
+#5 C:\xampp\htdocs\financas_pessoais\public\index.php(29): App\Core\Router->dispatch()
+#6 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 334
+[13-Jul-2025 10:27:44 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 10:27:44 America/Sao_Paulo] PHP Warning:  Undefined variable $upcomingBills in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 107
+[13-Jul-2025 10:27:44 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 107
+[13-Jul-2025 10:27:44 America/Sao_Paulo] PHP Warning:  Undefined variable $transactions in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 153
+[13-Jul-2025 10:27:44 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 153
+[13-Jul-2025 10:27:44 America/Sao_Paulo] PHP Warning:  Undefined variable $budgets in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 229
+[13-Jul-2025 10:27:44 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 229
+[13-Jul-2025 10:27:44 America/Sao_Paulo] PHP Warning:  Undefined variable $categories in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 302
+[13-Jul-2025 10:27:44 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 302
+[13-Jul-2025 10:27:44 America/Sao_Paulo] PHP Warning:  Undefined variable $expensesByCategory in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 334
+[13-Jul-2025 10:27:44 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php:334
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php(334): array_column(NULL, 'category')
+#1 C:\xampp\htdocs\financas_pessoais\app\Utils\helpers.php(11): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\financas_pessoais\app\Controllers\DashboardController.php(9): view('dashboard/index', Array)
+#3 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(96): App\Controllers\DashboardController->index(Array)
+#4 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(63): App\Core\Router->executeRoute(Array)
+#5 C:\xampp\htdocs\financas_pessoais\public\index.php(29): App\Core\Router->dispatch()
+#6 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 334
+[13-Jul-2025 10:31:29 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 10:31:29 America/Sao_Paulo] PHP Warning:  Undefined variable $transactions in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 153
+[13-Jul-2025 10:31:29 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 153
+[13-Jul-2025 10:31:29 America/Sao_Paulo] PHP Warning:  Undefined variable $budgets in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 229
+[13-Jul-2025 10:31:29 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 229
+[13-Jul-2025 10:31:29 America/Sao_Paulo] PHP Warning:  Undefined variable $categories in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 302
+[13-Jul-2025 10:31:29 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 302
+[13-Jul-2025 10:31:29 America/Sao_Paulo] PHP Warning:  Undefined variable $expensesByCategory in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 334
+[13-Jul-2025 10:31:29 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php:334
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php(334): array_column(NULL, 'category')
+#1 C:\xampp\htdocs\financas_pessoais\app\Utils\helpers.php(11): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\financas_pessoais\app\Controllers\DashboardController.php(9): view('dashboard/index', Array)
+#3 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(96): App\Controllers\DashboardController->index(Array)
+#4 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(63): App\Core\Router->executeRoute(Array)
+#5 C:\xampp\htdocs\financas_pessoais\public\index.php(29): App\Core\Router->dispatch()
+#6 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 334
+[13-Jul-2025 10:32:05 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 10:32:05 America/Sao_Paulo] PHP Warning:  Undefined variable $transactions in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 153
+[13-Jul-2025 10:32:05 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 153
+[13-Jul-2025 10:32:05 America/Sao_Paulo] PHP Warning:  Undefined variable $budgets in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 229
+[13-Jul-2025 10:32:05 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 229
+[13-Jul-2025 10:32:05 America/Sao_Paulo] PHP Warning:  Undefined variable $categories in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 302
+[13-Jul-2025 10:32:05 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 302
+[13-Jul-2025 10:32:05 America/Sao_Paulo] PHP Warning:  Undefined variable $expensesByCategory in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 334
+[13-Jul-2025 10:32:05 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php:334
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php(334): array_column(NULL, 'category')
+#1 C:\xampp\htdocs\financas_pessoais\app\Utils\helpers.php(11): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\financas_pessoais\app\Controllers\DashboardController.php(9): view('dashboard/index', Array)
+#3 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(96): App\Controllers\DashboardController->index(Array)
+#4 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(63): App\Core\Router->executeRoute(Array)
+#5 C:\xampp\htdocs\financas_pessoais\public\index.php(29): App\Core\Router->dispatch()
+#6 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 334
+[13-Jul-2025 10:32:39 America/Sao_Paulo] Middleware global: /transacoes
+[13-Jul-2025 10:32:41 America/Sao_Paulo] Middleware global: /
+[13-Jul-2025 10:32:41 America/Sao_Paulo] PHP Warning:  Undefined variable $transactions in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 153
+[13-Jul-2025 10:32:41 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 153
+[13-Jul-2025 10:32:41 America/Sao_Paulo] PHP Warning:  Undefined variable $budgets in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 229
+[13-Jul-2025 10:32:41 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 229
+[13-Jul-2025 10:32:41 America/Sao_Paulo] PHP Warning:  Undefined variable $categories in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 302
+[13-Jul-2025 10:32:41 America/Sao_Paulo] PHP Warning:  foreach() argument must be of type array|object, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 302
+[13-Jul-2025 10:32:41 America/Sao_Paulo] PHP Warning:  Undefined variable $expensesByCategory in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 334
+[13-Jul-2025 10:32:41 America/Sao_Paulo] PHP Fatal error:  Uncaught TypeError: array_column(): Argument #1 ($array) must be of type array, null given in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php:334
+Stack trace:
+#0 C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php(334): array_column(NULL, 'category')
+#1 C:\xampp\htdocs\financas_pessoais\app\Utils\helpers.php(11): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\financas_pessoais\app\Controllers\DashboardController.php(9): view('dashboard/index', Array)
+#3 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(96): App\Controllers\DashboardController->index(Array)
+#4 C:\xampp\htdocs\financas_pessoais\app\Core\Router.php(63): App\Core\Router->executeRoute(Array)
+#5 C:\xampp\htdocs\financas_pessoais\public\index.php(29): App\Core\Router->dispatch()
+#6 {main}
+  thrown in C:\xampp\htdocs\financas_pessoais\app\Views\dashboard\index.php on line 334
